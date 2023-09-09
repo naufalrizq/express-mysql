@@ -18,6 +18,7 @@
                 <% if (messages.error) { %>
                     <div class="alert alert-danger" role="alert"><%- messages.error %></div>
                 <% } %>
+                
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
                         <form action="/posts/update/<%= id %>" method="post">

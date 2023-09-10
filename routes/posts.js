@@ -177,9 +177,7 @@ router.post('/update/:id', function (req, res, next) {
     }
 })
 
-/**
- * DELETE POST
- */
+
 router.get('/delete/(:id)', function (req, res, next) {
 
     let id = req.params.id;

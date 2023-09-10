@@ -4,9 +4,7 @@ var router = express.Router();
 //import database
 var connection = require('../library/database');
 
-/**
- * INDEX POSTS
- */
+
 router.get('/', function (req, res, next) {
     //query
     connection.query('SELECT * FROM posts ORDER BY id desc', function (err, rows) {

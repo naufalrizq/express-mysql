@@ -115,9 +115,7 @@ router.get('/edit/(:id)', function (req, res, next) {
     })
 })
 
-/**
- * UPDATE POST
- */
+
 router.post('/update/:id', function (req, res, next) {
 
     let id = req.params.id;

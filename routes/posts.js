@@ -22,9 +22,7 @@ router.get('/', function (req, res, next) {
     });
 });
 
-/**
- * CREATE POST
- */
+
 router.get('/create', function (req, res, next) {
     res.render('posts/create', {
         title: '',

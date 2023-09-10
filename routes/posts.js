@@ -90,9 +90,7 @@ router.post('/store', function (req, res, next) {
 
 })
 
-/**
- * EDIT POST
- */
+
 router.get('/edit/(:id)', function (req, res, next) {
 
     let id = req.params.id;

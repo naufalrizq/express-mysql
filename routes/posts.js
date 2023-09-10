@@ -30,9 +30,7 @@ router.get('/create', function (req, res, next) {
     })
 })
 
-/**
- * STORE POST
- */
+
 router.post('/store', function (req, res, next) {
 
 

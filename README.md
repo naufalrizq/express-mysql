@@ -1,1 +1,3 @@
-## Hi
+## Docs
+
+Testing ejs

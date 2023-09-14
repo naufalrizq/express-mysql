@@ -68,7 +68,6 @@ router.post('/store', function (req, res, next) {
             //if(err) throw err
             if (err) {
                 req.flash('error', err)
-
                 // render to add.ejs
                 res.render('posts/create', {
                     title: formData.title,

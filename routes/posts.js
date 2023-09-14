@@ -34,7 +34,6 @@ router.post('/store', function (req, res, next) {
     let errors = false;
     if (title.length === 0) {
         errors = true;
-
         // set flash message
         req.flash('error', "Silahkan Masukkan Title");
         // render to add.ejs with flash message

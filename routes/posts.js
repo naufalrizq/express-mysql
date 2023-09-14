@@ -86,9 +86,7 @@ router.post('/store', function (req, res, next) {
 })
 
 router.get('/edit/(:id)', function (req, res, next) {
-
     let id = req.params.id;
-
     connection.query('SELECT * FROM posts WHERE id = ' + id, function (err, rows, fields) {
         if (err) throw err
 

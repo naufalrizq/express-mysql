@@ -3,7 +3,6 @@ var router = express.Router();
 
 var connection = require('../library/database');
 
-
 router.get('/', function (req, res, next) {
     //query
     connection.query('SELECT * FROM posts ORDER BY id desc', function (err, rows) {

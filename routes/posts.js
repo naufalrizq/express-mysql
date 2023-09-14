@@ -177,7 +177,6 @@ router.post('/update/:id', function (req, res, next) {
 
 
 router.get('/delete/(:id)', function (req, res, next) {
-
     let id = req.params.id;
     connection.query('DELETE FROM posts WHERE id = ' + id, function (err, result) {
         //if(err) throw err

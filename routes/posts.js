@@ -30,8 +30,6 @@ router.get('/create', function (req, res, next) {
 
 
 router.post('/store', function (req, res, next) {
-
-
     let title = req.body.title;
     let content = req.body.content;
     let errors = false;

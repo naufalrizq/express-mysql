@@ -115,7 +115,6 @@ router.post('/update/:id', function (req, res, next) {
 
     if (title.length === 0) {
         errors = true;
-
         // set flash message
         req.flash('error', "Silahkan Masukkan Title");
         // render to edit.ejs with flash message

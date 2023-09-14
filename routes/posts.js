@@ -139,7 +139,6 @@ router.post('/update/:id', function (req, res, next) {
 
     // if no error
     if (!errors) {
-
         let formData = {
             title: title,
             content: content

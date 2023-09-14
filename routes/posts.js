@@ -46,7 +46,6 @@ router.post('/store', function (req, res, next) {
 
     if (content.length === 0) {
         errors = true;
-
         // set flash message
         req.flash('error', "Silahkan Masukkan Konten");
         // render to add.ejs with flash message

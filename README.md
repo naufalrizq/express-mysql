@@ -1,3 +1,3 @@
-## Docs
+## ExpressMySQL
 
 Testing ejs
